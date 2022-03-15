@@ -1,0 +1,10 @@
+version: '3.9'
+services:
+    ws-bot:
+        container_name: tg-ws-bot
+        build:
+            context: .
+        env_file:
+            - .env
+        ports:
+            - '2000:2000'
