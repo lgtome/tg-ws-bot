@@ -22,6 +22,7 @@
 -   _run_ with Docker `docker build -t $name$ .` then `docker run`
 -   _run_ with Makefile `make build` then `make run`
 -   You can also use `make run-t` if `BOT_TOKEN` was provided
+-   Also, you can run it locally with the current command `yarn dev` for development and `yarn serve` for usage
 
 ## Goal
 
